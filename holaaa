@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000; /* Fondo negro para resaltar */
+  font-family: 'Arial', sans-serif;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #00aaff; /* Azul brillante */
+  font-weight: bold;
+  text-shadow: 0 0 10px #00aaff;
+  z-index: 10;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
